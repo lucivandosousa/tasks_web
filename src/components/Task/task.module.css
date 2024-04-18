@@ -1,0 +1,28 @@
+.task {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid #e8e8e8;
+}
+
+.task_checkbox {
+  margin-right: 12px;
+}
+
+.icon_red {
+  fill: #d94949;
+  cursor: pointer;
+}
+
+.icon_red:hover {
+  fill: #ac1d1d;
+}
+
+.task_concluded {
+  text-decoration: line-through;
+}
